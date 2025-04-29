@@ -6,8 +6,8 @@ AI Player Compass is a comprehensive navigation website dedicated to providing u
 
 ## Website Access
 
-- English Version: https://www.aiplayercompass.com/en/
-- Chinese Version: https://www.aiplayercompass.com/cn/
+- English Version: https://www.aiplayercompass.online/en/
+- Chinese Version: https://www.aiplayercompass.online/cn/
 
 ## Completion Status:
 1. Popular AI Tools ✅ Completed
