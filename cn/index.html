@@ -41,6 +41,7 @@
     
     <!-- 核心JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="../assets/js/resizeable.js"></script>
@@ -101,14 +102,30 @@
     .user-info-menu.right-links {
         float: right;
         margin-right: 15px;
+        position: relative;
+        z-index: 1000;
     }
     .user-info-menu.right-links > li {
         margin-left: 15px;
+        position: relative;
     }
     /* 语言切换器样式 */
+    .language-switcher {
+        position: relative;
+    }
     .language-switcher .dropdown-menu {
         min-width: 160px;
         padding: 5px 0;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        z-index: 1001;
+        background-color: #fff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        display: none;
+    }
+    .language-switcher .dropdown-menu.show {
+        display: block;
     }
     .language-switcher .dropdown-menu > li > a {
         padding: 8px 20px;
@@ -127,16 +144,37 @@
     .theme-switcher {
         position: relative;
     }
+    .theme-switcher .dropdown-toggle {
+        position: relative;
+        z-index: 1000;
+    }
     .theme-switcher .dropdown-menu {
-        min-width: 160px;
-        padding: 5px 0;
-        right: 0;
+        position: fixed;
+        top: auto;
         left: auto;
+        right: 15px;
+        margin-top: 40px;
+        min-width: 160px;
+        max-width: 200px;
+        background: #fff;
+        border: 1px solid rgba(0,0,0,0.1);
+        border-radius: 4px;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+        z-index: 9999;
+        display: none;
+    }
+    .theme-switcher .dropdown-menu.show {
+        display: block;
     }
     .theme-switcher .dropdown-menu > li > a {
-        padding: 8px 20px;
+        padding: 8px 16px;
         color: #333;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        line-height: 1.5;
     }
     .theme-switcher .dropdown-menu > li > a:hover {
         background-color: #f5f5f5;
@@ -146,6 +184,15 @@
         margin-right: 10px;
         width: 16px;
         text-align: center;
+        font-size: 14px;
+    }
+    @media (max-width: 768px) {
+        .theme-switcher .dropdown-menu {
+            right: 10px;
+            left: auto;
+            margin-top: 35px;
+            width: 180px;
+        }
     }
     /* 主题切换动画 */
     body {
@@ -1010,6 +1057,68 @@
     <!-- JavaScripts initializations and stuff -->
     <script src="../assets/js/xenon-custom.js"></script>
     <script src="../assets/js/lozad.js"></script>
+    <script>
+    $(document).ready(function() {
+        // 处理下拉菜单的点击事件
+        $('.dropdown-toggle').on('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            var $dropdown = $(this).closest('.dropdown');
+            var $menu = $dropdown.find('.dropdown-menu');
+            
+            // 关闭其他打开的下拉菜单
+            $('.dropdown-menu').not($menu).removeClass('show');
+            
+            // 切换当前下拉菜单
+            $menu.toggleClass('show');
+
+            // 调整菜单位置
+            if ($menu.hasClass('show')) {
+                var windowWidth = $(window).width();
+                var menuWidth = $menu.outerWidth();
+                var menuRight = parseInt($menu.css('right'));
+                
+                // 确保菜单不会超出右侧
+                if (menuRight + menuWidth > windowWidth) {
+                    $menu.css('right', windowWidth - menuWidth - 10);
+                }
+            }
+        });
+
+        // 点击下拉菜单项时阻止事件冒泡
+        $('.dropdown-menu').on('click', function(e) {
+            e.stopPropagation();
+        });
+
+        // 点击页面其他地方时关闭所有下拉菜单
+        $(document).on('click', function() {
+            $('.dropdown-menu').removeClass('show');
+        });
+
+        // 防止主题切换时菜单自动关闭
+        $('.theme-switcher .dropdown-menu a').on('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var theme = $(this).attr('onclick').match(/'(.+?)'/)[1];
+            changeTheme(theme);
+        });
+
+        // 窗口大小改变时重新计算菜单位置
+        $(window).on('resize', function() {
+            var $menu = $('.theme-switcher .dropdown-menu.show');
+            if ($menu.length) {
+                var windowWidth = $(window).width();
+                var menuWidth = $menu.outerWidth();
+                var menuRight = parseInt($menu.css('right'));
+                
+                if (menuRight + menuWidth > windowWidth) {
+                    $menu.css('right', windowWidth - menuWidth - 10);
+                }
+            }
+        });
+    });
+    </script>
 </body>
 
 </html>
