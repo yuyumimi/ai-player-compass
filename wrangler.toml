@@ -1,0 +1,15 @@
+[site]
+bucket = "."
+entry-point = "."
+
+[build]
+command = "bash build.sh"
+publish = "."
+
+[env.production]
+name = "ai-player-compass"
+route = "aiplayercompass.online/*"
+zone_id = "9ffa629dc5da401c0283bf103c64f5bb"  # 需要填写您的Cloudflare区域ID
+
+[env.production.vars]
+ENVIRONMENT = "production" 
