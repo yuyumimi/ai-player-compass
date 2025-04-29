@@ -6,5 +6,8 @@
 /en /en/ 302
 /cn /cn/ 302
 
+# 资源文件路径修复
+/assets/* /assets/:splat 200
+
 # 确保所有请求都使用HTTPS
 http://* https://:splat 301! 

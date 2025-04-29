@@ -698,3 +698,26 @@
   * build.sh（新建）
   * wrangler.toml（新建）
   * DEPLOY.md（新建）
+
+会话总结 - 修复Cloudflare Pages部署后的资源文件路径问题
+- 会话主要目的：修复部署到Cloudflare Pages后出现的资源文件404错误
+- 完成的主要任务：
+  * 将所有HTML文件中的bootstrap.min.js和TweenMax.min.js引用改为CDN链接
+  * 更新了_redirects文件，添加了资源文件路径修复规则
+  * 确保所有页面使用一致的资源引用方式
+- 关键决策和解决方案：
+  * 使用CDN链接替代本地文件，避免文件缺失问题
+  * 添加资源文件路径修复规则，确保Cloudflare正确处理资源请求
+  * 统一所有页面的资源引用方式，提高维护性
+- 使用的技术栈：
+  * CDN (jsdelivr, cdnjs)
+  * Cloudflare Pages
+  * HTML/JavaScript
+- 修改的文件：
+  * cn/index.html
+  * en/index.html
+  * cn/about.html
+  * en/about.html
+  * index.html
+  * 404.html
+  * _redirects
