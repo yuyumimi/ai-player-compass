@@ -6,8 +6,8 @@ AI Player Compass是一个综合性导航网站，致力于为用户提供AI工�
 
 ## 网站访问地址
 
-- 中文版：https://www.aiplayercompass.com/cn/
-- 英文版：https://www.aiplayercompass.com/en/
+- 中文版：https://www.aiplayercompass.online/cn/
+- 英文版：https://www.aiplayercompass.online/en/
 
 完成度：
 1. 热门AI工具 ✅ 已完成
