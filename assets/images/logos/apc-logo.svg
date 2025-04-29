@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- 渐变定义 -->
+    <defs>
+        <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1E3D59"/>
+            <stop offset="100%" style="stop-color:#4F9DE7"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- 主圆形背景 -->
+    <circle cx="100" cy="100" r="90" fill="none" stroke="url(#blueGradient)" stroke-width="4"/>
+    
+    <!-- 指南针指针 -->
+    <path d="M100 30 L110 100 L100 170 L90 100 Z" fill="url(#blueGradient)"/>
+    
+    <!-- APC文字 -->
+    <text x="100" y="105" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="url(#blueGradient)">APC</text>
+    
+    <!-- 指南针刻度 -->
+    <g stroke="url(#blueGradient)" stroke-width="2">
+        <line x1="100" y1="20" x2="100" y2="35"/>
+        <line x1="100" y1="165" x2="100" y2="180"/>
+        <line x1="20" y1="100" x2="35" y2="100"/>
+        <line x1="165" y1="100" x2="180" y2="100"/>
+    </g>
+</svg> 

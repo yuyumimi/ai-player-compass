@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <meta charset="UTF-8">
+    <title>AI Player Compass - AI工具导航</title>
+    <script>
+    
+    // 检测浏览器语言并重定向到相应语言版本
+    // 获取浏览器语言设置
+    if (navigator.appName == "Netscape") {
+        var language = navigator.language;  // 现代浏览器使用 navigator.language
+    } else {
+        var language = navigator.browserLanguage;  // IE浏览器使用 navigator.browserLanguage
+    }
+
+    // 根据语言设置重定向到对应页面
+    if (language.indexOf("en") > -1) {
+        document.location.href = "en/index.html";  // 英文版本
+    } else if (language.indexOf("zh") > -1) {
+        document.location.href = "cn/index.html";  // 中文版本
+    } else {
+        document.location.href = "en/index.html";  // 默认英文版本
+    }
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="AI Player Compass" />
+    <title>AI Player Compass - AI工具导航</title>
+    <meta name="keywords" content="AI工具,AI导航,AI资源,AI开发,AI学习,AI模型,AI应用,AI数据集,AI论文,www.aiplayercompass.com">
+    <meta name="description" content="AI Player Compass - 综合性AI工具导航网站，提供AI工具、开发资源和游戏相关内容的一站式导航服务。www.aiplayercompass.com">
+    
+    <!-- / FB Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://www.aiplayercompass.com/">
+    <meta property="og:title" content="AI Player Compass - 综合性AI工具导航网站">
+    <meta property="og:description" content="AI Player Compass - 综合性AI工具导航网站，提供AI工具、开发资源和游戏相关内容的一站式导航服务。www.aiplayercompass.com">
+    <meta property="og:image" content="./assets/images/logo.png">
+    <meta property="og:site_name" content="AI Player Compass - 综合性AI工具导航网站">
+    <!-- / Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI Player Compass - 综合性AI工具导航网站">
+    <meta name="twitter:description" content="AI Player Compass - 综合性AI工具导航网站，提供AI工具、开发资源和游戏相关内容的一站式导航服务。www.aiplayercompass.com">
+    <meta name="twitter:image" content="./assets/images/logo.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- 页面重定向到语言特定版本 -->
+</body>
+
+</html>
