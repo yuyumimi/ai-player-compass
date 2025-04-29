@@ -1,233 +1,230 @@
-# AI Player Compass 导航网站
+# AI Player Compass Navigation Website
 
-[English](README_EN.md) | 中文
+English | [中文](README.md)
 
-AI Player Compass是一个综合性导航网站，致力于为用户提供AI工具、开发资源和游戏相关内容的一站式导航服务。项目分三个阶段进行开发和实施，逐步丰富内容和功能。
+AI Player Compass is a comprehensive navigation website dedicated to providing users with one-stop navigation services for AI tools, development resources, and gaming content. The project is developed and implemented in three phases, gradually enriching content and functionality.
 
-## 网站访问地址
+## Website Access
 
-- 中文版：https://www.aiplayercompass.com/cn/
-- 英文版：https://www.aiplayercompass.com/en/
+- English Version: https://www.aiplayercompass.com/en/
+- Chinese Version: https://www.aiplayercompass.com/cn/
 
-完成度：
-1. 热门AI工具 ✅ 已完成
+## Completion Status:
+1. Popular AI Tools ✅ Completed
 
-   - ChatGPT、Claude、Midjourney、DALL-E等已添加
+   - ChatGPT, Claude, Midjourney, DALL-E, etc. have been added
 
-2. 语言模型工具 ✅ 已完成
+2. Language Model Tools ✅ Completed
 
-   - GPT-4、Claude、LLaMA系列已添加
+   - GPT-4, Claude, LLaMA series have been added
 
-   - Copy.ai、Jasper等文本生成工具已添加
+   - Text generation tools like Copy.ai, Jasper have been added
 
-   - PromptBase、PromptHero等提示词工具
+   - Prompt tools like PromptBase, PromptHero have been added
 
-3. AI创意工具 ✅ 大部分完成
+3. AI Creative Tools ✅ Mostly Completed
 
-   - 图像生成：Midjourney、DALL-E、Stable Diffusion已添加
+   - Image generation: Midjourney, DALL-E, Stable Diffusion have been added
 
-   - 视频生成：Runway、Gen-2、Pika已添加
+   - Video generation: Runway, Gen-2, Pika have been added
 
-   - 音频生成：Mubert、Soundraw、ElevenLabs已添加
+   - Audio generation: Mubert, Soundraw, ElevenLabs have been added
 
-4. AI开发资源 ✅ 已完成
+4. AI Development Resources ✅ Completed
 
-   - 模型平台：Hugging Face、Replicate已添加
+   - Model platforms: Hugging Face, Replicate have been added
 
-   - 开发框架：LangChain、LlamaIndex已添加
+   - Development frameworks: LangChain, LlamaIndex have been added
 
-   - API服务：已通过各平台的API页面链接提供
+   - API services: Provided through links to each platform's API pages
 
-5. AI效率工具 ✅ 已完成
+5. AI Productivity Tools ✅ Completed
 
-   - 写作助手：Notion AI、Grammarly已添加
+   - Writing assistants: Notion AI, Grammarly have been added
 
-   - 代码助手：GitHub Copilot、Cursor、Cody已添加
+   - Code assistants: GitHub Copilot, Cursor, Cody have been added
 
-   - 设计助手：Khroma、Uizard已添加
+   - Design assistants: Khroma, Uizard have been added
 
-6. AI学习资源 ✅ 已完成
+6. AI Learning Resources ✅ Completed
 
-   - 教程：Prompt Engineering Guide已添加
+   - Tutorials: Prompt Engineering Guide has been added
 
-   - 社区：Hugging Face社区已添加
+   - Communities: Hugging Face community has been added
 
-   - 博客：Towards Data Science已添加
+   - Blogs: Towards Data Science has been added
   
-7. 创建logo和favicon图标  ✅ 已完成
-8. 网站添加主题切换选择按钮  ✅ 已完成
-9. 优化网站性能和加载速度  ✅ 已完成
-10. 添加搜索功能  ❌ 未完成
-11. 添加工具分类筛选功能  ❌ 未完成
+7. Created logo and favicon icons ✅ Completed
+8. Added theme switching button to website ✅ Completed
+9. Optimized website performance and loading speed ✅ Completed
+10. Added search functionality ❌ Not completed
+11. Added tool category filtering ❌ Not completed
 
+## Project Roadmap
 
+### Phase One: AI Tools Navigation Site
 
+**Target Audience**: AI tool enthusiasts and users
 
-## 项目发展路线图
+**Main Content**:
+1. **Popular AI Tools**
+   - Large AI models and applications like ChatGPT, Claude, Midjourney, DALL-E
 
-### 阶段一：AI工具导航站
+2. **Language Model Tools**
+   - Large language models: GPT-4, Claude, LLaMA series
+   - Text generation tools: Copy.ai, Jasper, etc.
+   - Prompt tools: PromptBase, PromptHero
 
-**目标群体**：AI工具爱好者和使用者
+3. **AI Creative Tools**
+   - Image generation: Midjourney, DALL-E, Stable Diffusion
+   - Video generation: Runway, Gen-2, Pika
+   - Audio generation: Mubert, Soundraw, ElevenLabs
 
-**主要内容**：
-1. **热门AI工具**
-   - ChatGPT、Claude、Midjourney、DALL-E等大型AI模型和应用
+4. **AI Development Resources**
+   - Model platforms: Hugging Face, Replicate
+   - Development frameworks: LangChain, LlamaIndex
+   - API services: OpenAI API, Anthropic API
 
-2. **语言模型工具**
-   - 大型语言模型：GPT-4、Claude、LLaMA系列
-   - 文本生成工具：Copy.ai、Jasper等
-   - 提示词工具：PromptBase、PromptHero
+5. **AI Productivity Tools**
+   - Writing assistants: Notion AI, Grammarly
+   - Code assistants: GitHub Copilot, Cursor, Cody
+   - Design assistants: Khroma, Uizard
 
-3. **AI创意工具**
-   - 图像生成：Midjourney、DALL-E、Stable Diffusion
-   - 视频生成：Runway、Gen-2、Pika
-   - 音频生成：Mubert、Soundraw、ElevenLabs
+6. **AI Learning Resources**
+   - Tutorials: Prompt Engineering Guide
+   - Communities: Hugging Face community, AI forums
+   - Blogs: Towards Data Science
 
-4. **AI开发资源**
-   - 模型平台：Hugging Face、Replicate
-   - 开发框架：LangChain、LlamaIndex
-   - API服务：OpenAI API、Anthropic API
-
-5. **AI效率工具**
-   - 写作助手：Notion AI、Grammarly
-   - 代码助手：GitHub Copilot、Cursor、Cody
-   - 设计助手：Khroma、Uizard
-
-6. **AI学习资源**
-   - 教程：Prompt Engineering Guide
-   - 社区：Hugging Face社区、AI论坛
-   - 博客：Towards Data Science
-
-**实施步骤**：
-1. 基础设置：域名注册与托管
-2. 内容结构设计：规划AI工具分类体系
-3. 视觉设计更新：创建品牌Logo和图标
-4. 网站部署：实现中英文双语内容
+**Implementation Steps**:
+1. Basic setup: Domain registration and hosting
+2. Content structure design: Planning AI tool classification system
+3. Visual design update: Creating brand logo and icons
+4. Website deployment: Implementing bilingual content in Chinese and English
 
 ---
 
-### 阶段二：独立开发者工具内容扩展
+### Phase Two: Independent Developer Tools Content Expansion
 
-**目标群体**：初、中级程序员和独立开发者
+**Target Audience**: Junior to intermediate programmers and independent developers
 
-**新增内容**：
-1. **开发工具导航**
-   - 编辑器/IDE：VS Code、JetBrains系列、Sublime Text
-   - 代码管理：GitHub、GitLab、Bitbucket
-   - CI/CD工具：Jenkins、GitHub Actions、CircleCI
+**New Content**:
+1. **Development Tools Navigation**
+   - Editors/IDEs: VS Code, JetBrains series, Sublime Text
+   - Code management: GitHub, GitLab, Bitbucket
+   - CI/CD tools: Jenkins, GitHub Actions, CircleCI
 
-2. **前端开发资源**
-   - 框架：React、Vue、Angular
-   - UI组件库：Material UI、Ant Design、Tailwind
-   - 构建工具：Webpack、Vite、Rollup
+2. **Frontend Development Resources**
+   - Frameworks: React, Vue, Angular
+   - UI component libraries: Material UI, Ant Design, Tailwind
+   - Build tools: Webpack, Vite, Rollup
 
-3. **后端开发资源**
-   - 框架：Node.js、Django、Spring Boot
-   - 数据库：MongoDB、PostgreSQL、Redis
-   - API工具：Postman、Swagger、Insomnia
+3. **Backend Development Resources**
+   - Frameworks: Node.js, Django, Spring Boot
+   - Databases: MongoDB, PostgreSQL, Redis
+   - API tools: Postman, Swagger, Insomnia
 
-4. **移动开发工具**
-   - 跨平台框架：Flutter、React Native
-   - 原生开发：Android Studio、Xcode
-   - 测试工具：Firebase Test Lab、Appium
+4. **Mobile Development Tools**
+   - Cross-platform frameworks: Flutter, React Native
+   - Native development: Android Studio, Xcode
+   - Testing tools: Firebase Test Lab, Appium
 
-5. **独立开发者资源**
-   - 启动资源：Indie Hackers、ProductHunt
-   - 营销工具：SEO工具、社交媒体管理
-   - 收益化：Stripe、Paddle、Gumroad
+5. **Independent Developer Resources**
+   - Launch resources: Indie Hackers, ProductHunt
+   - Marketing tools: SEO tools, social media management
+   - Monetization: Stripe, Paddle, Gumroad
 
-**实施步骤**：
-1. 内容扩展规划：在现有AI工具导航基础上扩展开发者工具分类
-2. 视觉更新与整合：保持与AI工具部分风格一致
-3. 实现与部署：更新中英文内容并测试
-
----
-
-### 阶段三：游戏内容扩展
-
-**目标群体**：游戏爱好者和玩家
-
-**新增内容**：
-1. **游戏发现与平台**
-   - 数字平台：Steam、Epic Games、GOG
-   - 主机平台：PlayStation、Xbox、Nintendo Switch
-   - 移动游戏平台：App Store、Google Play
-
-2. **游戏开发资源**
-   - 游戏引擎：Unity、Unreal Engine、Godot
-   - 素材资源：Sketchfab、Mixamo、OpenGameArt
-   - 音效资源：Freesound、GameDev Market
-
-3. **游戏社区与媒体**
-   - 社区：Reddit Gaming、Discord服务器
-   - 媒体：IGN、GameSpot、Polygon
-   - 视频：YouTube Gaming、Twitch
-
-4. **电竞资源**
-   - 赛事平台：FACEIT、ESL
-   - 电竞新闻：HLTV、Liquipedia
-   - 训练工具：Aim Lab、Kovaak's
-
-5. **游戏辅助工具**
-   - 游戏录制：OBS、Nvidia ShadowPlay
-   - 模组平台：Nexus Mods、CurseForge
-   - 游戏社交：Discord、Steam社区
-
-**实施步骤**：
-1. 游戏内容规划：设计游戏相关分类结构
-2. 设计与整合：创建游戏分类的视觉元素
-3. 实现与部署：添加游戏资源内容并测试
+**Implementation Steps**:
+1. Content expansion planning: Expanding developer tool categories based on existing AI tool navigation
+2. Visual update and integration: Maintaining consistent style with AI tools section
+3. Implementation and deployment: Updating Chinese and English content and testing
 
 ---
 
-## 持续维护与发展计划
+### Phase Three: Gaming Content Expansion
 
-### 内容更新机制
-- 设置每月更新计划，添加新兴AI工具、开发工具和游戏资源
-- 建立用户反馈渠道（如表单或GitHub issues）
+**Target Audience**: Gaming enthusiasts and players
 
-### 社区建设
-- 创建社交媒体账号（Twitter/X、Discord）
-- 考虑添加简单的博客功能，分享AI、开发和游戏领域的新闻
+**New Content**:
+1. **Game Discovery and Platforms**
+   - Digital platforms: Steam, Epic Games, GOG
+   - Console platforms: PlayStation, Xbox, Nintendo Switch
+   - Mobile gaming platforms: App Store, Google Play
 
-### 监测与优化
-- 添加简单的分析工具（如Google Analytics或Plausible）
-- 根据用户行为数据优化网站结构和内容
+2. **Game Development Resources**
+   - Game engines: Unity, Unreal Engine, Godot
+   - Asset resources: Sketchfab, Mixamo, OpenGameArt
+   - Sound resources: Freesound, GameDev Market
 
-## 技术栈
+3. **Gaming Communities and Media**
+   - Communities: Reddit Gaming, Discord servers
+   - Media: IGN, GameSpot, Polygon
+   - Video: YouTube Gaming, Twitch
+
+4. **Esports Resources**
+   - Tournament platforms: FACEIT, ESL
+   - Esports news: HLTV, Liquipedia
+   - Training tools: Aim Lab, Kovaak's
+
+5. **Gaming Assistant Tools**
+   - Game recording: OBS, Nvidia ShadowPlay
+   - Mod platforms: Nexus Mods, CurseForge
+   - Gaming social: Discord, Steam community
+
+**Implementation Steps**:
+1. Gaming content planning: Designing gaming-related classification structure
+2. Design and integration: Creating visual elements for gaming categories
+3. Implementation and deployment: Adding gaming resource content and testing
+
+---
+
+## Continuous Maintenance and Development Plan
+
+### Content Update Mechanism
+- Set up monthly update plans to add emerging AI tools, development tools, and gaming resources
+- Establish user feedback channels (such as forms or GitHub issues)
+
+### Community Building
+- Create social media accounts (Twitter/X, Discord)
+- Consider adding a simple blog feature to share news in AI, development, and gaming fields
+
+### Monitoring and Optimization
+- Add simple analytics tools (such as Google Analytics or Plausible)
+- Optimize website structure and content based on user behavior data
+
+## Tech Stack
 - HTML5 + CSS3
 - JavaScript
-- Bootstrap框架
-- GitHub Pages/Netlify托管
+- Bootstrap framework
+- GitHub Pages/Netlify hosting
 
-## 贡献
-欢迎贡献新的工具和资源！请通过issue或PR提交您的建议。
+## Contributing
+Contributions of new tools and resources are welcome! Please submit your suggestions through issues or PRs.
 
-## 主要功能
+## Main Features
 
-- AI工具导航
-- AI模型资源
-- AI开发框架
-- AI学习资源
-- AI应用案例
-- AI数据集
-- AI论文资源
+- AI Tools Navigation
+- AI Model Resources
+- AI Development Frameworks
+- AI Learning Resources
+- AI Application Cases
+- AI Datasets
+- AI Paper Resources
 
-## 使用说明
+## Usage Instructions
 
-1. 克隆项目到本地
-2. 修改配置文件
-3. 部署到服务器
+1. Clone the project to your local machine
+2. Modify the configuration files
+3. Deploy to your server
 
-## 贡献指南
+## Contributing Guidelines
 
-欢迎提交 Pull Request 来改进这个项目。
+Pull Requests are welcome to improve this project.
 
-## 许可证
+## License
 
 MIT License
 
-## 联系方式
+## Contact
 
-- 网站：https://www.aiplayercompass.com
-- 邮箱：contact@aiplayercompass.com 
+- Website: https://www.aiplayercompass.com
+- Email: contact@aiplayercompass.com 
