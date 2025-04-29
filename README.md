@@ -1,5 +1,7 @@
 # AI Player Compass 导航网站
 
+[English](README_EN.md) | 中文
+
 AI Player Compass是一个综合性导航网站，致力于为用户提供AI工具、开发资源和游戏相关内容的一站式导航服务。项目分三个阶段进行开发和实施，逐步丰富内容和功能。
 
 ## 网站访问地址
