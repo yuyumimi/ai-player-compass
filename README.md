@@ -226,5 +226,5 @@ MIT License
 
 ## Contact
 
-- Website: https://www.aiplayercompass.com
-- Email: contact@aiplayercompass.com 
+- Website: https://www.aiplayercompass.online
+- Email: contact@aiplayercompass.online 

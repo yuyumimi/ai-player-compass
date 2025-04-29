@@ -229,5 +229,5 @@ MIT License
 
 ## 联系方式
 
-- 网站：https://www.aiplayercompass.com
-- 邮箱：contact@aiplayercompass.com 
+- 网站：https://www.aiplayercompass.online
+- 邮箱：contact@aiplayercompass.online 
